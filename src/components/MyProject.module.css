@@ -1,24 +1,28 @@
-.skills{
+.container {
     min-height: 100vh;
-    background-color: rgb(138, 65, 255);
+    background-color: blanchedalmond;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-
+    justify-content: center;
 }
-.containerSkills{
+
+.containerProject {
     width: 80%;
 }
 
-.header{
+.header {
     display: flex;
     border: 1px solid;
-    height: 20vh;
+    height: 15vh;
     justify-content: center;
     align-items: center;
 }
-.blockskills{
+
+.blocks {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
+
+

@@ -1,0 +1,36 @@
+.contacts{
+    min-height: 60vh;
+    background-color: rgb(231, 69, 4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.insideBorder{
+    border: 1px solid;
+    width: 80%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.containerContacts{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    width: 50%;
+    margin:  10px;
+
+}
+.textarea{
+    height: 150px;
+}
+.button{
+
+}
+.span{
+    background-color: antiquewhite;
+}

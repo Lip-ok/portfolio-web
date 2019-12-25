@@ -1,0 +1,22 @@
+.skills{
+    min-height: 100vh;
+    background-color: rgb(138, 65, 255);
+    display: flex;
+    justify-content: center;
+}
+.containerSkills{
+    width: 80%;
+}
+
+.header{
+    display: flex;
+    border: 1px solid;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+}
+.blockskills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
