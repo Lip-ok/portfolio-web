@@ -5,10 +5,10 @@ import BlockSkills from "./BlockSkills";
 
 function Skills() {
   return (
-    <div className={styles.skills}>
-        <div className={styles.containerSkills}>
+    <div className={styles.blockSkills}>
+        <div className={styles.skillsContainer}>
             <div className={styles.header}>Заголовок</div>
-            <div className={styles.blockskills}>
+            <div className={styles.skills}>
             <BlockSkills/>
             <BlockSkills/>
             <BlockSkills/>

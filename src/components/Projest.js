@@ -3,7 +3,7 @@ import React from "react";
 
 function Project() {
     return (
-        <div className={styles.block1}>
+        <div className={styles.project}>
             <div className={styles.photo}>
                 <button>button</button>
             </div>

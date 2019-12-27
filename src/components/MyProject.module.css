@@ -1,11 +1,11 @@
-.container {
+.projectContainers {
     min-height: 100vh;
     background-color: blanchedalmond;
     display: flex;
     justify-content: center;
 }
 
-.containerProject {
+.container {
     width: 80%;
 }
 

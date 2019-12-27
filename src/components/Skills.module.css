@@ -1,10 +1,10 @@
-.skills{
+.blockSkills{
     min-height: 100vh;
     background-color: rgb(138, 65, 255);
     display: flex;
     justify-content: center;
 }
-.containerSkills{
+.skillsContainer{
     width: 80%;
 }
 
@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
 }
-.blockskills{
+.skills{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;

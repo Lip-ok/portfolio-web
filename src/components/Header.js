@@ -6,9 +6,7 @@ function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
-        <div className={styles.nav}>
-          <NavMenu />  
-        </div>
+          <NavMenu />
       </div>
     </div>
   );
