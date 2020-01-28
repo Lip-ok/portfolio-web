@@ -7,8 +7,10 @@ function Project() {
             <div className={styles.photo}>
                 <button>button</button>
             </div>
-            <span className={styles.text}>Lorem ipsum dolor sit amet. </span>
-            <div className={styles.textarea}>Lorem ipsum dolor sit amet.</div>
+            <div className={styles.textarea}>
+            <div> <span className={styles.text}>Lorem ipsum dolor sit amet.</span></div>
+            <div> <span className={styles.text}>Lorem ipsum dolor sit amet.</span></div>
+            </div>
         </div>
     );
 }

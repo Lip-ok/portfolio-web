@@ -1,6 +1,6 @@
 .projectContainers {
     min-height: 100vh;
-    background-color: blanchedalmond;
+    background-color:#242323;
     display: flex;
     justify-content: center;
 }
@@ -21,6 +21,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.text{
+    color: white;
 }
 
 

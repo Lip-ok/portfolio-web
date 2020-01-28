@@ -1,6 +1,6 @@
 .contacts{
     min-height: 60vh;
-    background-color: rgb(231, 69, 4);
+    background-color: #242323;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .containerContacts{
     display: flex;

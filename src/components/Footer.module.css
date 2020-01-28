@@ -1,6 +1,6 @@
 .footer{
     min-height: 25vh;
-    background-color: rgb(231, 208, 4);
+    background-color: #2b2a2a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,8 +24,8 @@
     width: 50%;
     flex-wrap: wrap;
 }
-.span{
-
+.text{
+    color: white;
 }
 .link{
     height: 50px;

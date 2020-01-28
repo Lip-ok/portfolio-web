@@ -1,6 +1,6 @@
 .blockSkills{
     min-height: 100vh;
-    background-color: rgb(138, 65, 255);
+    background-color:#2b2a2a;
     display: flex;
     justify-content: center;
 }
@@ -19,4 +19,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+.text{
+    color: white;
 }

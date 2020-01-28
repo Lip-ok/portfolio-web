@@ -8,9 +8,9 @@ function Contacts() {
             <div className={styles.insideBorder}>
               <span className={styles.span}>Contacts</span>
                 <div className={styles.containerContacts}>
-                    <input></input>
-                    <input></input>
-                    <textarea className={styles.textarea}></textarea>
+                    <input placeholder='Name'></input>
+                    <input placeholder='Email'></input>
+                    <textarea placeholder='Messages' className={styles.textarea}></textarea>
                 </div>
               <button className={styles.button}>Отправить</button>
             </div>

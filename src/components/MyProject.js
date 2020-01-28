@@ -7,7 +7,9 @@ function MyProject() {
     return (
         <container className={styles.projectContainers}>
             <div className={styles.container}>
-                <div className={styles.header}>Заголовок</div>
+                <div className={styles.header}>
+                    <span className={styles.text}>Заголовок</span>
+                </div>
                 <div className={styles.blocks}>
                     <Project/>
                     <Project/>
