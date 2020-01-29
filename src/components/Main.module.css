@@ -3,6 +3,7 @@
     background-color: #242323;
     display: flex;
     justify-content: center;
+    /*background-image: url(https://images11.popmeh.ru/upload/img_cache/c2d/c2d28e4da5140a91be4b88fc68749b8e_ce_1024x768x0x0_fitted_1260x700.jpg);*/
 }
 .container{
     border: 1px solid;
@@ -18,9 +19,13 @@
     flex-direction: column;
 }
 .photo{
- background-color: rgb(148, 143, 143);
- width: 300px;
- height: 400px;
+    width: 400px;
+    background-image: url(http://s42.radikal.ru/i097/1107/21/b5d64eb99238.png);
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    border-radius: 10px;
+
 }
 .mainSpan{
     color: white;

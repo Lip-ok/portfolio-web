@@ -1,11 +1,10 @@
-.contacts{
+.contacts {
     min-height: 60vh;
     background-color: #242323;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
 }
 .insideBorder{
     border: 1px solid;
@@ -33,4 +32,14 @@
 }
 .span{
     background-color: antiquewhite;
+}
+@media screen and (max-width: 670px){
+    .containerContacts{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 400px){
+    .containerContacts{
+        width: 100%;
+    }
 }

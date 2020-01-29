@@ -3,8 +3,8 @@
     background-color: black;
     display: flex;
     justify-content: center;
+    /*opacity: 90%;*/
 
-    
 }
 .container{
     border: 1px solid;

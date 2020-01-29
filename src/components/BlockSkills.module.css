@@ -22,6 +22,12 @@
 .text{
     color: white;
 }
+@media screen and (max-width:1700px ){
+    .skill{
+        width: 700px;
+
+    }
+}
 
 
 

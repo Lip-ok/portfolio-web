@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-
 }
 .insideBorder{
 
@@ -35,4 +34,7 @@
 .img{
     width: 50px;
     height: 50px;
+}
+.iconVK{
+    background-image: url(https://icon-icons.com/icons2/1826/PNG/48/4202054chatlogosocialsocialmediavk-115634_115667.png);
 }
