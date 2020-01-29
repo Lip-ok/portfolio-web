@@ -25,3 +25,9 @@
 .mainSpan{
     color: white;
 }
+@media sreen and (max-width: 599px){
+    .photo{
+        width: 100%;
+
+    }
+}

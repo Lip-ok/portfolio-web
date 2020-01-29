@@ -19,13 +19,18 @@
 
 .blocks {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .text{
     color: white;
 }
 
+@media screen and (max-width: 1508px ){
+    .blocks{
+        justify-content: center;
+    }
+}
 
 
 

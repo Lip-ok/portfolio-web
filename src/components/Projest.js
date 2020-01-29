@@ -5,7 +5,7 @@ function Project() {
     return (
         <div className={styles.project}>
             <div className={styles.photo}>
-                <button>button</button>
+                <button>View</button>
             </div>
             <div className={styles.textarea}>
             <div> <span className={styles.text}>Lorem ipsum dolor sit amet.</span></div>

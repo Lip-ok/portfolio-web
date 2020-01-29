@@ -23,3 +23,9 @@
 .text{
     color: white;
 }
+
+@media screen and (max-width:1695px ){
+    .skills{
+        justify-content: center;
+    }
+}

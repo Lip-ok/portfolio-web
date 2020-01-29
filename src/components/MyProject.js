@@ -8,9 +8,10 @@ function MyProject() {
         <container className={styles.projectContainers}>
             <div className={styles.container}>
                 <div className={styles.header}>
-                    <span className={styles.text}>Заголовок</span>
+                    <span className={styles.text}>My projects</span>
                 </div>
                 <div className={styles.blocks}>
+                    <Project/>
                     <Project/>
                     <Project/>
                 </div>
