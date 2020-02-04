@@ -9,11 +9,11 @@ function Main() {
       <div className={styles.container}>
         <div className={styles.greeting}>
           <span className={styles.mainSpan}>Привет!</span>
-          <span className={styles.mainSpan}>Меня зовут Липень А.В.</span>
-          <span className={styles.mainSpan}>Я front-end разработчик</span>
+          <span>Меня зовут <span>Александр</span></span>
+          <h1>Я front-end разработчик</h1>
         </div>
         <div className={styles.photo}>
-          <img src='' />
+          <div className={styles.image} />
         </div>
       </div>
     </div>

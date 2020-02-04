@@ -12,6 +12,7 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 90px;
 
 }
 .greeting{
@@ -19,20 +20,76 @@
     flex-direction: column;
 }
 .photo{
-    width: 400px;
     background-image: url(http://s42.radikal.ru/i097/1107/21/b5d64eb99238.png);
     background-size: cover;
-    height: 500px;
     background-position: center;
-    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.image{
+    height: 500px;
+    width: 400px;
+}
+.photo .image:before{
+    content: "";
+    position: absolute;
+    width: 395px;
+    height: 525px;
+    border: 5px solid  #ea584d;
+    left: 16px;
+    top: -15px;
+    z-index: -1;
+}
+.greeting span:nth-child(1){
+    font-size: 16px;
+}
+.greeting span:nth-child(2),
+.greeting span:nth-child(2) span{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 5px;
+    position: relative;
+    z-index:  0;
+}
+.greeting span:nth-child(2) span:before {
+    content: "";
+    position: absolute;
+    width: 340px;
+    height: 20px;
+    background-color: #ea584d;
+    bottom: 0;
+    z-index: -1;
+}
 
+h1 {
+    font-size: 27px;
 }
-.mainSpan{
-    color: white;
-}
-@media sreen and (max-width: 599px){
+@media (max-width: 599px){
     .photo{
         width: 100%;
-
+    }
+    .photo:before{
+        width: 100%;
+    }
+}
+@media (max-width: 600px){
+    .greeting span:nth-child(1){
+        font-size: 16px;
+        text-align: center;
+    }
+    .greeting span:nth-child(2),
+    .greeting span:nth-child(2) span{
+        font-size: 16px;
+        text-align: center;
+    }
+    .greeting span:nth-child(2) span:before {
+        width: 150px;
+        height: 6px;
+        right: 0px;
+    }
+    h1 {
+        font-size: 20px;
+        text-align: center;
     }
 }
