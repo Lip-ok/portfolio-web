@@ -8,7 +8,7 @@ function Main() {
     <div className={styles.main}>
       <div className={styles.container}>
         <div className={styles.greeting}>
-          <span className={styles.mainSpan}>Привет!</span>
+          <span>Привет!</span>
           <span>Меня зовут <span>Александр</span></span>
           <h1>Я front-end разработчик</h1>
         </div>

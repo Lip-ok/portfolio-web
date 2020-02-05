@@ -20,13 +20,13 @@
     flex-direction: column;
 }
 .photo{
-    background-image: url(http://s42.radikal.ru/i097/1107/21/b5d64eb99238.png);
-    background-size: cover;
-    background-position: center;
     position: relative;
     z-index: 1;
 }
 .image{
+    background-image: url(http://s42.radikal.ru/i097/1107/21/b5d64eb99238.png);
+    background-size: cover;
+    background-position: center;
     height: 500px;
     width: 400px;
 }
