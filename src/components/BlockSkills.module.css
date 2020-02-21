@@ -1,29 +1,34 @@
-.skill{
-    border: 1px solid;
-    width: 450px;
+.skill {
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-
+    margin: 10px;
 }
 
-.photo{
-    border: 1px solid;
-    width: 200px;
-    height: 300px;
+.photo {
+    display: flex;
+    justify-content: center;
 }
 
-.textarea{
+.head h4 {
+    display: flex;
+    justify-content: center;
+}
+
+.textarea {
     border: 1px solid;
     width: 100%;
     height: 100px;
 }
-.text{
+
+.text {
     color: white;
 }
-@media screen and (max-width:1700px ){
-    .skill{
+
+@media screen and (max-width: 1700px ) {
+    .skill {
         width: 700px;
 
     }

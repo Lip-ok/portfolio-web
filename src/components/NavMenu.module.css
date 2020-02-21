@@ -4,6 +4,20 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.link{
+
+.navMenu a {
+    position: relative;
+    right: -15px;
     color: white;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+
+.navMenu a:hover {
+    color: #ea584d;
 }

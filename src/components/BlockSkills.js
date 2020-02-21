@@ -1,21 +1,21 @@
 import React from 'react';
 import styles from './BlockSkills.module.css';
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-
-function BlockSkills() {
-  return (
-
-          <div className={styles.skill}>
-                <div className={styles.photo}></div>
-              <div className={styles.textarea}>
-                  <span className={styles.text} > Lorem </span>
-              </div>
-              <div className={styles.textarea}>
-                  <span className={styles.text}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet autem cum debitis dignissimos eius</span>
-              </div>
-          </div>
-
-  );
+function BlockSkills(props) {
+    return (
+        <div className={styles.skill}>
+            <div className={styles.head}>
+                <div className={styles.photo}>
+                    <FontAwesomeIcon icon={props.icon} size='5x'/>
+                </div>
+                <h4 className={styles.name}>{props.title}</h4>
+            </div>
+            <div className={styles.text}>
+                {props.text}
+            </div>
+        </div>
+    );
 }
 
 export default BlockSkills;

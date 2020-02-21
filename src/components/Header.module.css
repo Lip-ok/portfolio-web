@@ -1,5 +1,6 @@
 .header {
     height: 90px;
+    opacity: .9;
     background-color: black;
     display: flex;
     justify-content: center;
@@ -8,10 +9,8 @@
     z-index: 2;
 }
 .container{
-    border: 1px solid;
     width: 80%;
     display: flex;
     justify-content:flex-end;
     align-items: center;
-
 }

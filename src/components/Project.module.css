@@ -1,7 +1,6 @@
 .project {
-    border: 1px solid;
     min-height: 450px;
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,6 +20,9 @@
     height: 120px;
     width: 100%;
     border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text{
     color: white;

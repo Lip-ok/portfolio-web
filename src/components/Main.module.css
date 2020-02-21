@@ -1,12 +1,31 @@
 .main {
-    min-height: 80vh;
-    background-color: #242323;
+    min-height: 100vh;
+    background-color: #111111;
     display: flex;
     justify-content: center;
+    position: relative;
     /*background-image: url(https://images11.popmeh.ru/upload/img_cache/c2d/c2d28e4da5140a91be4b88fc68749b8e_ce_1024x768x0x0_fitted_1260x700.jpg);*/
 }
+
+/*.oboi img{*/
+/*    position: fixed !important;*/
+/*    width: 100vw;*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.oboi::before{*/
+/*    content: '';*/
+/*    position: fixed !important;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    background-color: #111111;*/
+/*    opacity: .6;*/
+/*    z-index: 1;*/
+/*}*/
+
 .container{
-    border: 1px solid;
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -18,36 +37,63 @@
 .greeting{
     display: flex;
     flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hello {
+    font-family: 'Oswald', sans-serif;
 }
 .photo{
     position: relative;
     z-index: 1;
 }
+
+.imageHover {
+    width: 420px;
+    height: 520px;
+}
+
+.imageHover:hover .image{
+    margin: 0;
+    width: 420px;
+    height: 520px;
+}
+
+.imageHover:hover .image:before {
+    left: 12px;
+    top: -13px;
+    width: 414px;
+    height: 540px;
+}
+
 .image{
     background-image: url(http://s42.radikal.ru/i097/1107/21/b5d64eb99238.png);
     background-size: cover;
     background-position: center;
     height: 500px;
     width: 400px;
+    margin: 10px;
+    transition: 0.4s all;
 }
-.photo .image:before{
+.image:before{
     content: "";
     position: absolute;
     width: 395px;
-    height: 525px;
+    height: 520px;
     border: 5px solid  #ea584d;
-    left: 16px;
-    top: -15px;
+    left: 20px;
+    top: -13px;
     z-index: -1;
+    transition: 0.4s all;
 }
 .greeting span:nth-child(1){
-    font-size: 16px;
+    font-size: 1.3rem;
 }
 .greeting span:nth-child(2),
 .greeting span:nth-child(2) span{
-    font-size: 50px;
+    font-size: 3.6rem;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
     position: relative;
     z-index:  0;
@@ -55,11 +101,20 @@
 .greeting span:nth-child(2) span:before {
     content: "";
     position: absolute;
-    width: 340px;
-    height: 20px;
+    width: 230px;
+    height: 5px;
     background-color: #ea584d;
+    left: -5px;
     bottom: 0;
     z-index: -1;
+    transition: 0.5s all;
+}
+.greeting span:nth-child(2):hover span:before{
+    height: 13px;
+}
+
+.greeting h1{
+    margin: 0;
 }
 
 h1 {

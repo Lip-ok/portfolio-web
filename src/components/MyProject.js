@@ -11,9 +11,9 @@ function MyProject() {
                     <span className={styles.text}>My projects</span>
                 </div>
                 <div className={styles.blocks}>
-                    <Project/>
-                    <Project/>
-                    <Project/>
+                    <Project title='Dog game' link='https://github.com/Lip-ok/SN-project'/>
+                    <Project title='Social network' link='https://github.com/Lip-ok/SN-project'/>
+                    <Project title='Counter' link='https://github.com/Lip-ok/counter-test/tree/master/test'/>
                 </div>
             </div>
         </container>

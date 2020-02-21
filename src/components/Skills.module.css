@@ -1,6 +1,6 @@
 .blockSkills{
-    min-height: 100vh;
-    background-color:#2b2a2a;
+    height: max-content;
+    background-color:#666666;
     display: flex;
     justify-content: center;
 }
@@ -10,8 +10,6 @@
 
 .header{
     display: flex;
-    border: 1px solid;
-    height: 20vh;
     justify-content: center;
     align-items: center;
 }
@@ -19,8 +17,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 .headerTitle{
+    margin: 100px 0 100px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -30,17 +30,20 @@
     font-weight: 400;
     font-size: 36px;
     text-transform: capitalize;
+    position: relative;
 }
-.line{
+
+.headerTitle::after {
+    content: '';
+    position: absolute;
+    bottom: -40px;
     height: 1px;
     width: 150px;
     margin: 15px 0px;
     background-color: #ea584d;
 }
-
 @media screen and (max-width:1700px ){
     .skills{
         justify-content: center;
-
     }
 }

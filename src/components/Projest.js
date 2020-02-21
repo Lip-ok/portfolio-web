@@ -1,15 +1,14 @@
 import styles from "./Project.module.css";
 import React from "react";
 
-function Project() {
+function Project(props) {
     return (
         <div className={styles.project}>
             <div className={styles.photo}>
-                <button>View</button>
+                <a href={props.link}>view</a>
             </div>
             <div className={styles.textarea}>
-            <div> <span className={styles.text}>Lorem ipsum dolor sit amet.</span></div>
-            <div> <span className={styles.text}>Lorem ipsum dolor sit amet.</span></div>
+            <div> <span className={styles.text}>{props.title}</span></div>
             </div>
         </div>
     );

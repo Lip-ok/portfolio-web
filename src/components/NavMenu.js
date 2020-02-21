@@ -5,10 +5,10 @@ import styles from './NavMenu.module.css';
 function NavMenu() {
   return (
     <div className={styles.navMenu}>
-      <a href="" className={styles.link}>Главная</a>
-      <a href="" className={styles.link}>Скилы</a>
-      <a href="" className={styles.link}>Проекты</a>
-      <a href="" className={styles.link}>Контакты</a>
+      <a href="" >Main</a>
+      <a href="" >Skills</a>
+      <a href="" >Projects</a>
+      <a href="" >Contacts</a>
     </div>
   );
 }
