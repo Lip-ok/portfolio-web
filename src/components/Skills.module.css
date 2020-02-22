@@ -1,6 +1,6 @@
 .blockSkills{
     height: max-content;
-    background-color:#666666;
+    background-color: #202020;
     display: flex;
     justify-content: center;
 }
@@ -37,11 +37,12 @@
     content: '';
     position: absolute;
     bottom: -40px;
-    height: 1px;
+    height: 2px;
     width: 150px;
     margin: 15px 0px;
     background-color: #ea584d;
 }
+
 @media screen and (max-width:1700px ){
     .skills{
         justify-content: center;

@@ -16,8 +16,8 @@ function Skills() {
                 </div>
             </div>
             <div className={styles.skills}>
-            <BlockSkills icon={['fab', 'html5']} title='HTML5' text='Work with HTML elements'/>
-            <BlockSkills icon={['fab', 'css3-alt']} title='CSS3' text='Quality setting styles with CSS'/>
+            <BlockSkills icon={['fab', 'html5']} title='HTML' text='Work with HTML elements'/>
+            <BlockSkills icon={['fab', 'css3-alt']} title='CSS' text='Quality setting styles with CSS'/>
             <BlockSkills icon={['fab', 'js-square']} title='JS' text='Good javascript skills'/>
             <BlockSkills icon={['fab', 'react']} title='React' text='Build React Web Applications'/>
             </div>
