@@ -4,10 +4,9 @@ import styles from './Contacts.module.css';
 
 function Contacts() {
     return (
-        <div className={styles.contacts}>
-            <div className='contacts'>
 
-            </div>
+        <div id='contactsId' className={styles.contacts}>
+
             <div className={styles.spanHover}>
                 <span className={styles.spanContacts}>Contacts</span>
             </div>

@@ -19,7 +19,6 @@ function Main() {
         </div>
       </div>
     </div>
-
   );
 }
 

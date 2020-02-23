@@ -21,7 +21,7 @@ function NavMenu() {
                                                smooth={true}
                                                offset={-70}
                                                duration={500} className={styles.button}>Projects</Link></a>
-            <a className={styles.active}><Link to='contacts' spy={true}
+            <a className={styles.active}><Link to='contactsId' spy={true}
                                                activeClass={styles.active}
                                                smooth={true}
                                                offset={-70}

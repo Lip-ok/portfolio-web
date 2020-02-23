@@ -5,10 +5,8 @@ import Project from "./Project";
 
 function MyProject() {
     return (
-        <container className={styles.projectContainers}>
-            <div className='projects'>
+        <div id='projects' className={styles.projectContainers}>
 
-            </div>
             <div className={styles.container}>
                 <div className={styles.header}>
                     <span className={styles.text}>My projects</span>
@@ -19,7 +17,7 @@ function MyProject() {
                     <Project title='Counter' link='https://github.com/Lip-ok/counter-test/tree/master/test'/>
                 </div>
             </div>
-        </container>
+        </div>
     );
 }
 
