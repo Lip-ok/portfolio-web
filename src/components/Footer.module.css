@@ -30,6 +30,11 @@
     transition: 0.4s;
 }
 
-
+@media (max-width: 600px) {
+    .containerFooter{
+        justify-content: space-around;
+        width: 350px;
+    }
+}
 
 

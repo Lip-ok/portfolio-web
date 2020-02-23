@@ -23,7 +23,6 @@
 }
 
 .textarea {
-    height: 120px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -40,4 +39,17 @@
     .project {
         width: 700px;
     }
+}
+@media screen and (max-width: 600px ){
+    .project {
+        width: 300px;
+
+    }
+
+    .img{
+        background-size: cover;
+        width: 250px;
+        height:200px;
+    }
+
 }
