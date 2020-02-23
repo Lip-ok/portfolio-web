@@ -26,8 +26,6 @@
     opacity: .7;
 }
 
-
-
 .container {
     width: 80%;
     display: flex;
@@ -167,3 +165,45 @@ h1 {
         text-align: center;
     }
 }
+    @media (max-width: 600px) {
+        .imageHover {
+            width: 300px;
+            height: 420px;
+        }
+
+        .imageHover:hover .image {
+            margin: 0;
+            width: 300px;
+            height: 420px;
+        }
+
+        .imageHover:hover .image:before {
+            left: 12px;
+            top: -13px;
+            width: 300px;
+            height: 435px;
+        }
+
+        .image {
+            background-image: url("https://sun9-20.userapi.com/c855728/v855728693/9d290/xbUoAk4Hjvk.jpg");
+            background-size: cover;
+            background-position: center;
+            width: 300px;
+            height: 420px;
+            margin: 10px;
+            transition: 0.4s all;
+        }
+
+        .image:before {
+            content: "";
+            position: absolute;
+            width: 400px;
+            height: 520px;
+            border: 5px solid #ea584d;
+            left: 20px;
+            top: -13px;
+            z-index: -1;
+            transition: 0.4s all;
+            background-color: #111;
+        }
+    }

@@ -14,3 +14,15 @@
     justify-content:flex-end;
     align-items: center;
 }
+@media (max-width: 600px) {
+    .header{
+        height: 90px;
+        opacity: .9;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+    }
+}
