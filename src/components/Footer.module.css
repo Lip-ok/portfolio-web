@@ -1,5 +1,5 @@
 .footer{
-    min-height: 25vh;
+    height: 18vh;
     background-color: #111111;
     display: flex;
     justify-content: center;
@@ -18,12 +18,16 @@
 .containerFooter{
     display: flex;
     justify-content: space-around;
-    width: 50%;
+    width: 450px;
     flex-wrap: wrap;
    text-decoration: none;
 }
 .link a{
     color: #FFFFFF;
+}
+.link a:hover{
+    color: #ea584d;
+    transition: 0.4s;
 }
 
 

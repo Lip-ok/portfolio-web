@@ -15,28 +15,20 @@
     opacity: .9;
 }
 
-.main:before {content: "";position:absolute;width: 100%;height: 100%;background: rgba(0,0,0,0.7);}
+.main:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #111111;
+    opacity: .7;
+}
 
 
-/*.oboi img{*/
-/*    position: fixed !important;*/
-/*    width: 100vw;*/
-/*    height: 100vh;*/
-/*}*/
 
-/*.oboi::before{*/
-/*    content: '';*/
-/*    position: fixed !important;*/
-/*    top: 0;*/
-/*    right: 0;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    background-color: #111111;*/
-/*    opacity: .6;*/
-/*    z-index: 1;*/
-/*}*/
-
-.container{
+.container {
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -45,7 +37,8 @@
     margin-top: 90px;
 
 }
-.greeting{
+
+.greeting {
     display: flex;
     flex-direction: column;
     font-family: 'Oswald', sans-serif;
@@ -55,7 +48,8 @@
 .hello {
     font-family: 'Oswald', sans-serif;
 }
-.photo{
+
+.photo {
     position: relative;
     z-index: 1;
 
@@ -66,7 +60,7 @@
     height: 520px;
 }
 
-.imageHover:hover .image{
+.imageHover:hover .image {
     margin: 0;
     width: 420px;
     height: 520px;
@@ -79,9 +73,8 @@
     height: 540px;
 }
 
-.image{
+.image {
     background-image: url("https://sun9-20.userapi.com/c855728/v855728693/9d290/xbUoAk4Hjvk.jpg");
-            /*url(http://s42.radikal.ru/i097/1107/21/b5d64eb99238.png);*/
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -89,29 +82,34 @@
     margin: 10px;
     transition: 0.4s all;
 }
-.image:before{
+
+.image:before {
     content: "";
     position: absolute;
     width: 400px;
-    height: 525px;
-    border: 5px solid  #ea584d;
+    height: 520px;
+    border: 5px solid #ea584d;
     left: 20px;
     top: -13px;
     z-index: -1;
     transition: 0.4s all;
+    background-color: #111;
 }
-.greeting span:nth-child(1){
+
+.greeting span:nth-child(1) {
     font-size: 1.3rem;
 }
+
 .greeting span:nth-child(2),
-.greeting span:nth-child(2) span{
+.greeting span:nth-child(2) span {
     font-size: 3.6rem;
     font-weight: 700;
     font-family: 'Oswald', sans-serif;
     letter-spacing: 5px;
     position: relative;
-    z-index:  0;
+    z-index: 0;
 }
+
 .greeting span:nth-child(2) span:before {
     content: "";
     position: absolute;
@@ -123,40 +121,47 @@
     z-index: -1;
     transition: 0.5s all;
 }
-.greeting span:nth-child(2):hover span:before{
+
+.greeting span:nth-child(2):hover span:before {
     height: 13px;
 }
 
-.greeting h1{
+.greeting h1 {
     margin: 0;
 }
 
 h1 {
     font-size: 27px;
 }
-@media (max-width: 599px){
-    .photo{
+
+@media (max-width: 599px) {
+    .photo {
         width: 100%;
     }
-    .photo:before{
+
+    .photo:before {
         width: 100%;
     }
 }
-@media (max-width: 600px){
-    .greeting span:nth-child(1){
+
+@media (max-width: 600px) {
+    .greeting span:nth-child(1) {
         font-size: 16px;
         text-align: center;
     }
+
     .greeting span:nth-child(2),
-    .greeting span:nth-child(2) span{
+    .greeting span:nth-child(2) span {
         font-size: 16px;
         text-align: center;
     }
+
     .greeting span:nth-child(2) span:before {
         width: 150px;
         height: 6px;
         right: 0px;
     }
+
     h1 {
         font-size: 20px;
         text-align: center;

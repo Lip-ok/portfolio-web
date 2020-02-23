@@ -5,7 +5,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 const Link = (props)=>{
     return(
         <div className={styles.link}>
-            <a href={props.href}><FontAwesomeIcon icon={props.icon} size='3x'/></a>
+            <a href={props.href}><FontAwesomeIcon icon={props.icon} size='2x'/></a>
         </div>
     )
 }

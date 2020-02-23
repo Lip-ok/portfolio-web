@@ -21,3 +21,7 @@
 .navMenu a:hover {
     color: #ea584d;
 }
+
+a.active {
+    color: #ea584d;
+}

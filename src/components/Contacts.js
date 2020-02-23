@@ -4,8 +4,14 @@ import styles from './Contacts.module.css';
 
 function Contacts() {
     return (
-        <div id="contacts" className={styles.contacts}>
-              <span className={styles.spanContacts}>Contacts</span>
+        <div className={styles.contacts}>
+            <div className='contacts'>
+
+            </div>
+            <div className={styles.spanHover}>
+                <span className={styles.spanContacts}>Contacts</span>
+            </div>
+
                 <form className={styles.contactsForm}>
                     <div className={styles.groupval}>
                         <div className={styles.label}>

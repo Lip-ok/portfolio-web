@@ -10,7 +10,6 @@
 }
 
 .header {
-
     margin: 100px 0 100px;
     display: flex;
     align-items: center;
@@ -22,12 +21,11 @@
     font-size: 36px;
     text-transform: capitalize;
     position: relative;
+    transition: 0.4s;
 }
-
-.blocks {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.header:hover .text:after{
+    width: 265px;
+    margin: 15px -265px;
 }
 .text{
     margin: 100px 0 100px;
@@ -49,8 +47,13 @@
     width: 200px;
     margin: 15px -230px;
     background-color: #ea584d;
+    transition: 0.4s;
 }
-
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 @media screen and (max-width: 1510px ){
     .blocks{
         justify-content: center;

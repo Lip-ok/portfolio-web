@@ -33,6 +33,10 @@
     position: relative;
 }
 
+.h2Hover:hover .headerTitle::after {
+    width: 200px;
+}
+
 .headerTitle::after {
     content: '';
     position: absolute;
@@ -41,10 +45,18 @@
     width: 150px;
     margin: 15px 0px;
     background-color: #ea584d;
+    transition: 0.4s;
 }
 
 @media screen and (max-width:1700px ){
     .skills{
         justify-content: center;
+        flex-wrap: nowrap;
+    }
+}
+@media screen and (max-width:1000px ){
+    .skills{
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 }

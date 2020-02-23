@@ -1,5 +1,4 @@
 .contacts {
-    min-height: 100vh;
     background-color: #242323;
     display: flex;
     flex-direction: column;
@@ -7,8 +6,15 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.spanContacts{
+
+.spanHover{
     margin: 100px 0 100px;
+}
+.spanHover:hover .spanContacts::after{
+    margin: 15px -200px;
+    width: 200px;
+}
+.spanContacts{
     align-items: center;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -18,6 +24,7 @@
     font-size: 36px;
     text-transform: capitalize;
     position: relative;
+
 }
 .spanContacts::after {
     content: '';
@@ -27,11 +34,12 @@
     width: 150px;
     margin: 15px -175px;
     background-color: #ea584d;
+    transition: 0.4s;
 
 }
 
 .contactsForm{
-   margin-left: -40px;
+   margin: 0 0 70px -40px
 }
 
 .groupval {
@@ -74,7 +82,7 @@ input, textarea {
     position: absolute;
     left: 35px;
     top: -5px;
-    font-size: 10px;
+    font-size: 13px;
     line-height: 12px;
     background-color: #242323;
     color: #FFF;
@@ -130,6 +138,7 @@ button {
 
 button:hover{
     color: #ea584d;
+    transition: 0.4s;
 }
 @media screen and (max-width: 670px){
     .containerContacts{
