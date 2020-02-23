@@ -11,6 +11,7 @@
     width: 400px;
     height:300px;
 }
+
 .photo {
     content: "";
     width:100%;
@@ -18,8 +19,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-
 
 }
 
