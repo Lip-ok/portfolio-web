@@ -145,24 +145,26 @@ h1 {
 @media (max-width: 600px) {
     .greeting span:nth-child(1) {
         font-size: 16px;
-        text-align: center;
+        text-align: left;
     }
 
     .greeting span:nth-child(2),
     .greeting span:nth-child(2) span {
         font-size: 16px;
         text-align: center;
+
     }
 
     .greeting span:nth-child(2) span:before {
-        width: 150px;
+        width: 105px;
         height: 6px;
         right: 0px;
     }
 
     h1 {
-        font-size: 20px;
-        text-align: center;
+        font-size: 15px;
+        text-align: left;
+
     }
 }
     @media (max-width: 600px) {
@@ -197,8 +199,8 @@ h1 {
         .image:before {
             content: "";
             position: absolute;
-            width: 400px;
-            height: 520px;
+            width: 300px;
+            height: 420px;
             border: 5px solid #ea584d;
             left: 20px;
             top: -13px;
