@@ -16,10 +16,10 @@ function Skills() {
                 </div>
             </div>
             <div className={styles.skills}>
-            <BlockSkills icon={['fab', 'html5']} title='HTML' text='Work with HTML elements'/>
-            <BlockSkills icon={['fab', 'css3-alt']} title='CSS' text='Quality setting styles with CSS'/>
-            <BlockSkills icon={['fab', 'js-square']} title='JS' text='Good javascript skills'/>
-            <BlockSkills icon={['fab', 'react']} title='React' text='Build React Web Applications'/>
+            <BlockSkills icon={['fab', 'html5']} title='HTML' text='The correct use of block names with tags to create semantic layout. Using html to create any blocks on the site.'/>
+            <BlockSkills icon={['fab', 'css3-alt']} title='CSS' text='The use of CSS to style the site, also cross-browser layout, semantic layout, Material UI. Using a variety of libraries and animations.'/>
+            <BlockSkills icon={['fab', 'js-square']} title='JavaScript' text='The correct use of block names with tags to create semantic layout. Using html to create any blocks on the site.'/>
+            <BlockSkills icon={['fab', 'react']} title='React' text='Using the React.js library to write applications. FLUX Cycle, HOC, REST API, react-redux, AJAX, axios. '/>
             </div>
         </div>
     </div>

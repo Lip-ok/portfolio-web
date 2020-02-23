@@ -6,7 +6,7 @@ function Project(props) {
         <div className={styles.project}>
             <div className={styles.photo}>
                 <a href={props.link}>
-                    view
+                    <img className={styles.img} src={props.img}/>
                 </a>
             </div>
             <div className={styles.textarea}>
