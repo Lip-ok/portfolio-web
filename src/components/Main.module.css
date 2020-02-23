@@ -1,11 +1,22 @@
 .main {
     min-height: 100vh;
-    background-color: #111111;
     display: flex;
     justify-content: center;
+    background-color: #111;
+    background-image: url("https://www.zastavki.com/pictures/originals/2013/Cities__039053_.jpg");
+    background-size: 100%;
+    content: "";
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
     position: relative;
-    /*background-image: url(https://images11.popmeh.ru/upload/img_cache/c2d/c2d28e4da5140a91be4b88fc68749b8e_ce_1024x768x0x0_fitted_1260x700.jpg);*/
+    z-index: 1;
+    opacity: .9;
 }
+
+.main:before {content: "";position:absolute;width: 100%;height: 100%;background: rgba(0,0,0,0.7);}
+
 
 /*.oboi img{*/
 /*    position: fixed !important;*/
@@ -38,6 +49,7 @@
     display: flex;
     flex-direction: column;
     font-family: 'Oswald', sans-serif;
+    z-index: 2;
 }
 
 .hello {
@@ -46,6 +58,7 @@
 .photo{
     position: relative;
     z-index: 1;
+
 }
 
 .imageHover {
@@ -67,7 +80,8 @@
 }
 
 .image{
-    background-image: url(http://s42.radikal.ru/i097/1107/21/b5d64eb99238.png);
+    background-image: url("https://sun9-20.userapi.com/c855728/v855728693/9d290/xbUoAk4Hjvk.jpg");
+            /*url(http://s42.radikal.ru/i097/1107/21/b5d64eb99238.png);*/
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -78,8 +92,8 @@
 .image:before{
     content: "";
     position: absolute;
-    width: 395px;
-    height: 520px;
+    width: 400px;
+    height: 525px;
     border: 5px solid  #ea584d;
     left: 20px;
     top: -13px;

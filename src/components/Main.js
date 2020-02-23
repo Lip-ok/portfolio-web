@@ -5,10 +5,7 @@ import styles from './Main.module.css';
 
 function Main() {
   return (
-    <div className={styles.main}>
-    {/*  <div className={styles.oboi}>*/}
-    {/*    <img src='https://99px.ru/sstorage/53/2010/03/tmb_612_6010.jpg'/>*/}
-    {/*</div>*/}
+    <div id="main" className={styles.main}>
       <div className={styles.container}>
         <div className={styles.greeting}>
           <span className={styles.hello}>Hello!</span>
@@ -22,6 +19,7 @@ function Main() {
         </div>
       </div>
     </div>
+
   );
 }
 

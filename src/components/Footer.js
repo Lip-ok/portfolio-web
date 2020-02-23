@@ -10,14 +10,14 @@ function Footer() {
     return (
         <div className={styles.footer}>
             <div className={styles.insideBorder}>
-                <span className={styles.text}>Alexander Viktorovich</span>
+                <span className={styles.text}>Lipen' Alexander</span>
                 <div className={styles.containerFooter}>
                   <Link icon={['fab', 'vk']} href={"https://vk.com/alexander_lipen"}/>
                   <Link icon={['fab', 'instagram']} href={"https://www.instagram.com/lip_ok/"}/>
-                  <Link icon={['fab', 'facebook-f']} href={"#"}/>
-                  <Link icon={['fab', 'telegram-plane']} href={"#"}/>
+                  <Link icon={['fab', 'linkedin-in']} href={"https://www.linkedin.com/in/alexander-lipen-2895311a2/"}/>
+                  <Link icon={['fab', 'telegram-plane']} href={"https://t.me/Alexander_Lipen"}/>
                 </div>
-              <span className={styles.text}>All rights reserved ©</span>
+              <span className={styles.text}>© All rights reserved</span>
             </div>
         </div>
     );

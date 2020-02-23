@@ -4,10 +4,9 @@ import styles from './Contacts.module.css';
 
 function Contacts() {
     return (
-        <div className={styles.contacts}>
-            <div className={styles.insideBorder}>
+        <div id="contacts" className={styles.contacts}>
               <span className={styles.spanContacts}>Contacts</span>
-                <form>
+                <form className={styles.contactsForm}>
                     <div className={styles.groupval}>
                         <div className={styles.label}>
                             Full name
@@ -32,7 +31,6 @@ function Contacts() {
                     </div>
                 </form>
 
-            </div>
         </div>
 
     );

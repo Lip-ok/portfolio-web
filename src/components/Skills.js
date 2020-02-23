@@ -8,7 +8,7 @@ library.add(fab)
 
 function Skills() {
   return (
-    <div className={styles.blockSkills}>
+    <div id="skills" className={styles.blockSkills}>
         <div className={styles.skillsContainer}>
             <div className={styles.header}>
                 <div >

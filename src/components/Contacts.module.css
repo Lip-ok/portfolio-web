@@ -2,12 +2,13 @@
     min-height: 100vh;
     background-color: #242323;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 .spanContacts{
-    margin:     0px 0 100px;
+    margin: 100px 0 100px;
     align-items: center;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
@@ -29,14 +30,8 @@
 
 }
 
-.insideBorder{
-    width: 80%;
-    height: 45vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
+.contactsForm{
+   margin-left: -40px;
 }
 
 .groupval {
@@ -81,7 +76,7 @@ input, textarea {
     top: -5px;
     font-size: 10px;
     line-height: 12px;
-    background-color: #202020;
+    background-color: #242323;
     color: #FFF;
     text-transform: uppercase;
     font-weight: 600;
