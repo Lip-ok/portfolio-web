@@ -33,6 +33,7 @@
     font-size: 2rem;
     font-weight: 700;
     z-index: 1;
+    cursor: default;
 }
 .shadow{
     position: absolute;
@@ -80,6 +81,7 @@
 
 .text {
     color: white;
+    cursor: default;
 
 }
 

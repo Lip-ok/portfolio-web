@@ -38,6 +38,7 @@
     font-size: 36px;
     text-transform: capitalize;
     position: relative;
+    cursor: default;
 }
 .text:after{
     content: '';

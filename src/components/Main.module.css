@@ -45,6 +45,7 @@
 
 .hello {
     font-family: 'Oswald', sans-serif;
+    cursor: default;
 }
 
 .photo {
@@ -96,6 +97,7 @@
 
 .greeting span:nth-child(1) {
     font-size: 1.3rem;
+    cursor: default;
 }
 
 .greeting span:nth-child(2),
@@ -106,6 +108,7 @@
     letter-spacing: 5px;
     position: relative;
     z-index: 0;
+    cursor: default;
 }
 
 .greeting span:nth-child(2) span:before {
@@ -118,10 +121,12 @@
     bottom: 0;
     z-index: -1;
     transition: 0.5s all;
+    cursor: default;
 }
 
 .greeting span:nth-child(2):hover span:before {
     height: 13px;
+    cursor: default;
 }
 
 .greeting h1 {
@@ -130,6 +135,7 @@
 
 h1 {
     font-size: 27px;
+    cursor: default;
 }
 
 @media (max-width: 599px) {
