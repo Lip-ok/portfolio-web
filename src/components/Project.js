@@ -9,6 +9,7 @@ function Project(props) {
                     <img className={styles.img} src={props.img}/>
                     <div className={styles.block}>
                         <span >Look at github</span>
+                        <div className={styles.shadow}></div>
                     </div>
                 </a>
             </div>
