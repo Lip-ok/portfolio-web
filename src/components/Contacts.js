@@ -13,7 +13,7 @@ function Contacts() {
 
                 <form className={styles.contactsForm}>
                     <div className={styles.groupval}>
-                        <div className={styles.label}>
+                        <div   className={styles.label}>
                             Full name
                             <strong>*</strong>
                         </div>
